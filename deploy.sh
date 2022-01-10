@@ -10,12 +10,13 @@ trap '_es=${?};
     echo "${0}: line ${_lo}: \"${_co}\" exited with a status of ${_es}";
     exit ${_es}' ERR
 
+echo "vue-vocabulary: Starting build"
 npm run build
-rm dist/demo.html
 cp package.json dist/
-cp ../../README.md dist/
-sed -i -e 's/say, fonts/here, vue-vocabulary/' -e 's/cd packages\/fonts/cd packages\/vue-vocabulary/' dist/README.md
+cp README.md dist/
 cp LICENSE dist/
 
 cd dist
+echo "vue-vocabulary: Finished build"
+echo "vue-vocabulary: Starting publish"
 npm publish --access public
