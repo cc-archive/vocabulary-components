@@ -12,6 +12,14 @@
     "storybook": "vue-cli-service storybook:serve --ci -s ./src/assets -p 8082",
     "build:documentation": "npm run build && vue-cli-service storybook:build -s ./src/assets -o ./docs"
   },
+  "main": "dist/vocabulary-components.umd.min.js",
+  "browser": "dist/vocabulary-components.umd.min.js",
+  "module": "dist/vocabulary-components.common.js",
+  "unpkg": "dist/vocabulary-components.umd.min.js",
+  "files": [
+    "dist/*",
+    "src/**/*"
+  ],
   "dependencies": {
     "@creativecommons/fonts": "^2020.11.3",
     "@creativecommons/vocabulary": "^2020.11.3",
