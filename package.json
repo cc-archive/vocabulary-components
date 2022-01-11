@@ -1,5 +1,5 @@
 {
-  "name": "@creativecommons/vue-vocabulary",
+  "name": "@creativecommons/vocabulary-components",
   "version": "2020.11.3",
   "description": "Vue components implementing a cohesive design system to unite the web facing Creative Commons",
   "author": "Creative Commons (https://creativecommons.org)",
