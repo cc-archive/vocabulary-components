@@ -18,10 +18,6 @@
   "module": "dist/vocabulary-components.common.js",
   "unpkg": "dist/vocabulary-components.umd.min.js",
   "files": [
-    "README.md",
-    "LICENSE",
-    "CODE_OF_CONDUCT.md",
-    "CONTRIBUTING.md",
     "dist/*.{js,css,map}"
   ],
   "dependencies": {
