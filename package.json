@@ -22,8 +22,7 @@
     "LICENSE",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
-    "dist/*",
-    "src/**/*"
+    "dist/*.{js,css,map}"
   ],
   "dependencies": {
     "@creativecommons/fonts": "^2020.11.3",
