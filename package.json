@@ -7,7 +7,7 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "index": "node library/build.js",
-    "build": "npm run index && vue-cli-service build --target lib --name vocabulary-components --dest ./dist --entry ./src/index.js",
+    "build": "npm run index && vue-cli-service build --target lib --entry ./src/index.js",
     "watch": "npm run build -- --watch",
     "storybook": "vue-cli-service storybook:serve --ci -s ./src/assets -p 8082",
     "build:documentation": "npm run build && vue-cli-service storybook:build -s ./src/assets -o ./docs"
