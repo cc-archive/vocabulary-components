@@ -13,6 +13,7 @@
     "build:documentation": "npm run build && vue-cli-service storybook:build -s ./src/assets -o ./docs"
   },
   "license": "MIT",
+  "type": "commonjs",
   "main": "dist/vocabulary-components.umd.min.js",
   "browser": "dist/vocabulary-components.umd.min.js",
   "module": "dist/vocabulary-components.common.js",
