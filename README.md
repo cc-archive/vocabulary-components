@@ -246,10 +246,6 @@ We recommended that you run these workflows on your development environment so t
 
 You can refer the [Netktos/act Documentation](https://github.com/nektos/act/blob/master/README.md) for more commands and configuration options.
 
-## Versioning
-
-Vocabulary uses [CalVer](https://calver.org/) for version numbering, in the `YYYY.M.Micro` format. `Micro` is bumped whenever there are multiple releases in a month, for example `2020.7.1` is the first release in July 2020, while `2020.7.2` is the second.
-
 ## License
 
 Licensed under the Expat/[MIT](http://www.opensource.org/licenses/MIT) license.
