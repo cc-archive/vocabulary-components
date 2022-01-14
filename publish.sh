@@ -12,11 +12,7 @@ trap '_es=${?};
 
 echo "vue-vocabulary: Starting build"
 npm run build
-cp package.json dist/
-cp README.md dist/
-cp LICENSE dist/
-
-cd dist
 echo "vue-vocabulary: Finished build"
+
 echo "vue-vocabulary: Starting publish"
 npm publish --access public

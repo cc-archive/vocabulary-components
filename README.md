@@ -44,51 +44,39 @@
 
 Vocabulary is the code implementation of Creative Commons' Design Language. Vocabulary makes it easier to develop Creative Commons apps while ensuring a consistently familiar experience.
 
-## Included Packages
-
-`@creativecommons/vue-vocabulary` is a Vue package with its own components
-
-| Package                         | Description                                           |                                                                                                                                                          |
-| ------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| @creativecommons/vue-vocabulary | Vue component library powered by the main CSS library | [![install size](https://packagephobia.com/badge?p=@creativecommons/vue-vocabulary)](https://packagephobia.com/result?p=@creativecommons/vue-vocabulary) |
-
 ## Installation
 
 To setup you will need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed.
 
-Instailling with `npm` is lightweight, tweakable and much more performant as the code runs very close to the operating system. On the other hand, all dependencies must be manually resolved and each developer has a different setup.
-
-#### Project dependencies
+### Project dependencies
 
 If you have the system dependencies installed, you can install the project dependencies via `npm`:
 
 ```bash
-npm install --legacy-peer-deps
+npm install
 ```
 
 ## Running the project
 
-Once the project dependencies are installed, run the following command to start the project:
+Once the project dependencies are installed, run the following command to start the project documentation:
 
 ```bash
-npm run serve
+npm run storybook
 ```
 
 ### Building the packages
 
-To build the files for an individual package, run the relevant build command:
+To build the files for release, run the following command:
 
-```
+```bash
 npm run build
 ```
 
 To build the documentation:
 
-```
+```bash
 npm run build:documentation
 ```
-
-> ## IMPORTANT NOTE: The `serve` command has the -s flag for static assets serving
 
 ## Using
 
@@ -148,11 +136,11 @@ Update your fork from time to time. See GitHub Help pages for instructions on ho
 
 Write new tests, and update existing ones, for the changes you make.
 
-### Testing
+## Testing
 
 While our [Husky](https://www.npmjs.com/package/husky) setup will prevent you from committing poorly linted code, it cannot catch logical problems. For that we have some tests.
 
-#### **Unit**
+### **Unit**
 
 Running unit tests is easy.
 
@@ -170,13 +158,9 @@ Running this command will run a general test. Test can also be run for individua
 
 We use [Github Actions](https://github.com/features/actions) to automate some parts of our CI/CD pipeline. When contributing code, rather than having to commit/push every time a check fails, it will be useful to automate this process on your development environment to be sure all checks done will be successful.
 
-### Setting up CI testing on your Development Environment
+### **Install Dependencies**
 
-We recommend using the cross-platform package [Nektos/act](https://github.com/nektos/act). It requires Docker to run workflows.
-
-#### **Install Dependencies**
-
-##### - **Docker**
+#### - **Docker**
 
 If you don't have `Docker` installed, you can follow the links below to set it up depending on your environment.
 
@@ -184,7 +168,7 @@ If you don't have `Docker` installed, you can follow the links below to set it u
 - [x] Linux : [Docker for Linux](https://docs.docker.com/engine/install/)
 - [x] Windows : [Docker for Windows](https://docs.docker.com/desktop/windows/install/)
 
-##### - **Nektos/act**
+#### - **Nektos/act**
 
 Install using any of the methods below depending on your environment.
 
@@ -199,11 +183,11 @@ Install using any of the methods below depending on your environment.
 | **[Go](https://golang.org) (Linux/Windows/macOS/any other platform supported by Go)** | `go install github.com/nektos/act@latest`                                                                                    |
 | **[Manual Download](https://github.com/nektos/act/releases/latest) (GitHub)**         | Download the [latest release](https://github.com/nektos/act/releases/latest) and add the path to your binary into your PATH. |
 
-#### **Running Workflows**
+### **Running Workflows**
 
 Once you have downloaded and installed the package with its dependencies, it will automatically read the CI scripts from your [/.github/workflows](https://github.com/creativecommons/vocabulary/tree/main/.github/workflows) folder.
 
-##### Trigger all workflows
+#### Trigger all workflows
 
 To trigger all the CI workflows, `cd` into the root folder of this project (`vocabulary`) and run the command:
 
@@ -219,7 +203,7 @@ sudo act
 
 **NB:** _When you run it for the first time, it will ask you to choose a docker image to be used as default._
 
-##### Trigger a specific workflow
+#### Trigger a specific workflow
 
 To run a specific workflow, for example, the `build` workflow, you can specify it by running:
 
@@ -235,20 +219,14 @@ act -l
 
 Currently, we have four CI workflows namely:
 
-```
 - build
 - lint
 - test
 - update_release_draft
-```
 
 We recommended that you run these workflows on your development environment so that if any errors occur, you can identify and resolve them before opening a PR.
 
 You can refer the [Netktos/act Documentation](https://github.com/nektos/act/blob/master/README.md) for more commands and configuration options.
-
-## Versioning
-
-Vocabulary uses [CalVer](https://calver.org/) for version numbering, in the `YYYY.M.Micro` format. `Micro` is bumped whenever there are multiple releases in a month, for example `2020.7.1` is the first release in July 2020, while `2020.7.2` is the second.
 
 ## License
 

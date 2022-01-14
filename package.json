@@ -1,17 +1,26 @@
 {
-  "name": "@creativecommons/vue-vocabulary",
-  "version": "2020.11.3",
+  "name": "@creativecommons/vocabulary-components",
+  "version": "0.1.0",
   "description": "Vue components implementing a cohesive design system to unite the web facing Creative Commons",
   "author": "Creative Commons (https://creativecommons.org)",
   "scripts": {
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "index": "node library/build.js",
-    "build": "npm run index && vue-cli-service build --target lib --name vue-vocabulary --dest ./dist --entry ./src/index.js",
+    "build": "npm run index && vue-cli-service build --target lib --entry ./src/index.js",
     "watch": "npm run build -- --watch",
     "storybook": "vue-cli-service storybook:serve --ci -s ./src/assets -p 8082",
     "build:documentation": "npm run build && vue-cli-service storybook:build -s ./src/assets -o ./docs"
   },
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/vocabulary-components.umd.min.js",
+  "browser": "dist/vocabulary-components.umd.min.js",
+  "module": "dist/vocabulary-components.common.js",
+  "unpkg": "dist/vocabulary-components.umd.min.js",
+  "files": [
+    "dist/*.{js,css,map}"
+  ],
   "dependencies": {
     "@creativecommons/fonts": "^2020.11.3",
     "@creativecommons/vocabulary": "^2020.11.3",
@@ -85,7 +94,6 @@
     "vue components",
     "library"
   ],
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/creativecommons/vocabulary.git",
