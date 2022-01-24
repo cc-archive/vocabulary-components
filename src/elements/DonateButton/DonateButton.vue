@@ -17,7 +17,7 @@
     name: 'DonateButton',
     mixins: [sized],
     components: { VButton },
-    data(){
+    data () {
       return {
         ccHeartFilledIcon
       }
