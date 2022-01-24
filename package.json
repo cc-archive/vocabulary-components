@@ -22,8 +22,9 @@
     "dist/*.{js,css,map}"
   ],
   "dependencies": {
-    "@creativecommons/fonts": "^2020.11.3",
-    "@creativecommons/vocabulary": "^2020.11.3",
+    "@creativecommons/cc-assets": "^0.1.0",
+    "@creativecommons/vocabulary-fonts": "^0.1.1",
+    "@creativecommons/vocabulary-styles": "^0.2.1",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
     "@vue/babel-preset-jsx": "^1.1.2",
     "core-js": "^3.6.5",
