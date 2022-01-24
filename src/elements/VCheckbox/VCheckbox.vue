@@ -66,7 +66,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import "~@creativecommons/vocabulary-styles/scss/color.scss";
+@import "~@creativecommons/vocabulary-styles/dist/scss/color.scss";
 .checkbox, .radio {
   display: flex;
   align-items: baseline;

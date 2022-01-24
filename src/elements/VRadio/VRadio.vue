@@ -92,7 +92,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import "~@creativecommons/vocabulary-styles/scss/color.scss";
+@import "~@creativecommons/vocabulary-styles/dist/scss/color.scss";
 // TODO: These styles should be removed when the radio styles are merged into Vocabulary
 .radio {
   display: flex;

@@ -58,7 +58,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import "~@creativecommons/vocabulary-styles/scss/color.scss";
+@import "~@creativecommons/vocabulary-styles/dist/scss/color.scss";
 //@import '~@creativecommons/vocabulary/dist/scss/modal.scss';
 @import 'bulma/sass/utilities/_all';
 
