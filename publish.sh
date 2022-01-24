@@ -10,9 +10,12 @@ trap '_es=${?};
     echo "${0}: line ${_lo}: \"${_co}\" exited with a status of ${_es}";
     exit ${_es}' ERR
 
-echo "vue-vocabulary: Starting build"
-npm run build
-echo "vue-vocabulary: Finished build"
+echo "vocabulary-components: Deleting contents of dist folder"
+rm -rf dist/*
 
-echo "vue-vocabulary: Starting publish"
+echo "vocabulary-components: Starting build"
+npm run build
+echo "vocabulary-components: Finished build"
+
+echo "vocabulary-components: Starting publish"
 npm publish --access public
