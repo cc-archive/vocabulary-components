@@ -1,5 +1,5 @@
 import VHeader from './VHeader'
-import ChooserLogo from '@creativecommons/vocabulary/assets/logos/products/chooser.svg?inline'
+import ChooserLogo from "@creativecommons/cc-assets/logos/products/chooser.svg?inline";
 import NavItem from './NavItem'
 import NavDropdown from './NavDropdown'
 import { addDescription } from '../../utils/addDescription'
