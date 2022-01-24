@@ -65,7 +65,7 @@
   }
 </script>
 <style lang="scss" scoped>
-@import "~@creativecommons/vocabulary/scss/vocabulary";
+@import "~@creativecommons/vocabulary-styles/scss/vocabulary.scss";
 
 .logo {
   color: black;
