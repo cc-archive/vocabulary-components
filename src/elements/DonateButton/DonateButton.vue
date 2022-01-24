@@ -2,7 +2,7 @@
   <VButton class="donate" :size="size">
     <img
       class="icon margin-right-small padding-top-smaller"
-      :src="require('@creativecommons/cc-assets/icons/cc-heart-filled.svg')"
+      :src="ccHeartFilledIcon"
     />
     <slot default />
   </VButton>
@@ -11,10 +11,16 @@
 <script>
   import VButton from '../VButton/VButton'
   import { sized } from '@/mixins/sized'
+  import ccHeartFilledIcon from '@creativecommons/cc-assets/icons/cc-heart-filled.svg'
 
   export default {
     name: 'DonateButton',
     mixins: [sized],
-    components: { VButton }
+    components: { VButton },
+    data(){
+      return {
+        ccHeartFilledIcon
+      }
+    }
   }
 </script>
