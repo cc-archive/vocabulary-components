@@ -47,7 +47,7 @@
  */
   import NavItem from './NavItem'
   import NavDropdown from './NavDropdown'
-  import CCSearchLogo from '@creativecommons/vocabulary/assets/logos/products/search.svg?inline'
+  import CCSearchLogo from '@creativecommons/cc-assets/logos/products/search.svg?inline'
 
   export default {
     name: 'VHeader',
