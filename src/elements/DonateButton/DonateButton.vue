@@ -1,6 +1,9 @@
 <template>
   <VButton class="donate" :size="size">
-    <i class="icon cc-letterheart-filled margin-right-small padding-top-smaller" />
+    <img
+      class="icon margin-right-small padding-top-smaller"
+      :src="require('@creativecommons/cc-assets/icons/cc-heart-filled.svg')"
+    />
     <slot default />
   </VButton>
 </template>
