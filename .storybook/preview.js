@@ -6,7 +6,7 @@ import i18n from '@/i18n'
 import viewports from './viewport'
 import order from './order'
 
-import '@creativecommons/vocabulary/css/vocabulary.css'
+import "@creativecommons/vocabulary-styles/dist/scss/vocabulary.scss";
 
 addParameters({
   options: { storySort: order },

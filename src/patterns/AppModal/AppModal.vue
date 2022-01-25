@@ -17,7 +17,7 @@
             @click="$emit('close')"
           >
             <span class="icon has-color-gray is-size-4 is-size-6-touch">
-              <Cross />
+               <font-awesome-icon icon="fa-solid fa-times" />
             </span>
           </button>
         </header>
@@ -29,13 +29,16 @@
 
 <script>
   import { FocusTrap } from 'focus-trap-vue'
-  import Cross from '@creativecommons/fonts/assets/svg/symbols/times.svg?inline'
+  import { library } from '@fortawesome/fontawesome-svg-core'
+  import { faTimes } from '@fortawesome/free-solid-svg-icons'
+  import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+  library.add(faTimes)
 
   export default {
     name: 'AppModal',
     components: {
       FocusTrap,
-      Cross
+      FontAwesomeIcon
     },
     props: {
       /** Required for titlebar AND close button to show */
@@ -58,7 +61,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import '~@creativecommons/vocabulary/scss/color.scss';
+@import "~@creativecommons/vocabulary-styles/dist/scss/color.scss";
 //@import '~@creativecommons/vocabulary/dist/scss/modal.scss';
 @import 'bulma/sass/utilities/_all';
 

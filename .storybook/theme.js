@@ -1,6 +1,6 @@
 import { create } from "@storybook/theming";
 
-import vocabularySvg from "@creativecommons/vocabulary/assets/logos/products/vocabulary.svg";
+import vocabularySvg from "@creativecommons/cc-assets/logos/products/vocabulary.svg";
 
 export default create({
   // Inherit
