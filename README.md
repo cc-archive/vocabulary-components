@@ -56,14 +56,6 @@ If you have the system dependencies installed, you can install the project depen
 npm install
 ```
 
-## Running the project
-
-Once the project dependencies are installed, run the following command to start the project documentation:
-
-```bash
-npm run storybook
-```
-
 ### Building the packages
 
 To build the files for release, run the following command:
