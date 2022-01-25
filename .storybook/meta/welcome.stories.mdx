@@ -1,8 +1,9 @@
 import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
 
 import vocabularySvg from "@creativecommons/cc-assets/logos/products/vocabulary.svg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+library.add(faGithub);
 
 
 <Meta title = 'Vue Vocabulary/Introduction'/>
@@ -18,7 +19,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
   </p>
 
   <a href="https://github.com/creativecommons/vue-vocabulary" class="github-corner">
-    <FontAwesomeIcon icon={["fab", "github"]} />
+    <FontAwesomeIcon icon="fa-brand fa-github" />
   </a>
 
   <p class="text-normal">
