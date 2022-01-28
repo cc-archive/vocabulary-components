@@ -8,7 +8,8 @@
     "test:unit": "vue-cli-service test:unit",
     "index": "node library/build.js",
     "build": "npm run index && vue-cli-service build --target lib --entry ./src/index.js",
-    "watch": "npm run build -- --watch"
+    "watch": "npm run build -- --watch",
+    "prepare": "husky install"
   },
   "license": "MIT",
   "type": "commonjs",
