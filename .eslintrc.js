@@ -13,7 +13,8 @@ module.exports = {
     'vue/script-indent': ['error', 2, {
       switchCase: 1,
       baseIndent: 1
-    }] // Supersedes the normal indent rule
+    }], // Supersedes the normal indent rule,
+    'vue/multi-word-component-names': 'off'
   },
   overrides: [
     {
