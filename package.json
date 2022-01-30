@@ -36,7 +36,6 @@
     "vue-i18n": "^8.20.0"
   },
   "devDependencies": {
-    "@creativecommons/vocabulary-components": "^0.2.0",
     "@kazupon/vue-i18n-loader": "^0.5.0",
     "@vue/cli-plugin-babel": "^4.5.6",
     "@vue/cli-plugin-eslint": "^4.5.6",

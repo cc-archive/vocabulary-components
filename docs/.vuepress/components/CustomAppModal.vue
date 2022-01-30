@@ -1,7 +1,11 @@
 <template>
   <div>
     <VButton @click="modalVisible = true">Open Modal</VButton>
-    <AppModal title="App Modal" @close="modalVisible = false">
+    <app-modal
+      v-if="modalVisible"
+      title="App Modal"
+      @close="modalVisible = false"
+    >
       <div class="meta-card">
         <hr class="margin-bottom-bigger" />
         <div
@@ -14,7 +18,7 @@
           </p>
         </div>
       </div>
-    </AppModal>
+    </app-modal>
   </div>
 </template>
 <script>

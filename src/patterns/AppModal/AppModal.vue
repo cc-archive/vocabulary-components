@@ -1,6 +1,6 @@
 <template>
   <!-- eslint-disable-next-line vuejs-accessibility/click-events-have-key-events -->
-  <div ref="modal" class="overlay app-modal" @click.self="$emit('close')">
+  <div ref="modal" class="overlay app-modal" @click="$emit('close')">
     <FocusTrap :active="true">
       <div class="modal relative" aria-modal="true" role="dialog">
         <header
@@ -53,6 +53,7 @@
     methods: {
       closeOnEsc (e) {
         if (e.keyCode === 27) {
+          console.log(`exi`)
           this.$emit('close')
         }
       }

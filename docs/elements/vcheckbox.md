@@ -1,0 +1,5 @@
+---
+title: VCheckbox
+---
+
+<CustomVCheckbox />

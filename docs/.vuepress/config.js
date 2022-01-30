@@ -3,6 +3,7 @@ const sidebar = [
   'CONTRIBUTING',
   {
     title: 'Elements',
+    collapsable: false,
     children: [
       'elements/',
       ['elements/donate-button', 'DonateButton'],
@@ -13,6 +14,7 @@ const sidebar = [
   },
   {
     title: 'Patterns',
+    collapsable: false,
     children: [
       'patterns/',
       ['patterns/app-modal', 'App Modal'],
@@ -49,13 +51,6 @@ module.exports = {
   },
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/@creativecommons/vocabulary-components@0.2.0/dist/vocabulary-components.css'
-      }
-    ]
   ],
   plugins: [['@vuepress/back-to-top', true]],
   extraWatchFiles: ['.vuepress/config/**']

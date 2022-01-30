@@ -1,10 +1,8 @@
-import VButton from '@creativecommons/vocabulary-components'
-import AppModal from '@creativecommons/vocabulary-components'
-import '@creativecommons/vocabulary-styles'
-// import i18n from '../../src/i18n'
+import VocabularyComponents from "../../src/index";
+import "@creativecommons/vocabulary-styles";
 
 export default ({ Vue, options, router, siteData }) => {
-  Vue.use(VButton)
-  Vue.use(AppModal)
-  //   Vue.use(i18n)
-}
+  // i18n stub
+  Vue.prototype.$t = (msg) => msg;
+  Vue.use(VocabularyComponents);
+};

@@ -2,4 +2,4 @@
 title: Footer
 ---
 
-<Footer />
+<CustomFooter />
