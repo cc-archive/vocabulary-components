@@ -10,7 +10,7 @@
 
 <script>
   import VButton from '../VButton/VButton'
-  import { sized } from '@/mixins/sized'
+  import { sized } from '@/mixins/sized.js'
   import ccHeartFilledIcon from '@creativecommons/cc-assets/icons/cc-heart-filled.svg'
 
   export default {

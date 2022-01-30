@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import Indicating from '@/mixins/indicating'
+  import Indicating from '@/mixins/indicating.js'
 
   /**
    * ### Cells are the pillars of tables.

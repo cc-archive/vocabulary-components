@@ -1,4 +1,4 @@
-import { sizes } from '@/utils/values'
+import { sizes } from '@/utils/values.js'
 
 export const sized = {
   props: {

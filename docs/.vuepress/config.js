@@ -22,14 +22,11 @@ const sidebar = [
     ]
   }
 ]
-console.log(__dirname + '/../../src/')
+console.log(__dirname)
 module.exports = {
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@': path.resolve(__dirname + '../../src/')
-      }
-    }
+  chainWebpack (config, isServer) {
+    // config is an instance of ChainableConfig
+    config.resolve.alias.set('@', path.resolve(__dirname + '../../../src/'))
   },
   themeConfig: {
     title: 'Vocabulary Components',
@@ -50,7 +47,16 @@ module.exports = {
     editLinks: true,
     docsDir: 'docs'
   },
-  head: [['link', { rel: 'icon', href: `/logo.png` }]],
+  head: [
+    ['link', { rel: 'icon', href: `/logo.png` }],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/@creativecommons/vocabulary-components@0.2.0/dist/vocabulary-components.css'
+      }
+    ]
+  ],
   plugins: [['@vuepress/back-to-top', true]],
   extraWatchFiles: ['.vuepress/config/**']
 }
