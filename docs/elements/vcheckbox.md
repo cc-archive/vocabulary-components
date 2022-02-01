@@ -2,4 +2,6 @@
 title: VCheckbox
 ---
 
+## Checkbox
+
 <CustomVCheckbox />
