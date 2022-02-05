@@ -24,7 +24,7 @@ const sidebar = [
     ]
   }
 ]
-console.log(__dirname)
+
 module.exports = {
   chainWebpack (config, isServer) {
     // config is an instance of ChainableConfig

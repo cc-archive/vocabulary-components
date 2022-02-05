@@ -2,10 +2,11 @@
 title: VButton
 ---
 
-## Themed Buttons
+## Buttons
 
-<VButton theme="primary">Primary</VButton>
+<CustomButtons />
 
-<VButton theme="success">Success</VButton>
 
-<VButton theme="info">Info</VButton>
+## Code
+
+<<< @/docs/.vuepress/components/CustomButtons.vue
