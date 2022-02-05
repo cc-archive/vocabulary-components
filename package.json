@@ -4,7 +4,8 @@
   "description": "Vue components implementing a cohesive design system to unite the web facing Creative Commons",
   "author": "Creative Commons (https://creativecommons.org)",
   "scripts": {
-    "serve": "vuepress dev docs",
+    "docs:serve": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "index": "node library/build.js",

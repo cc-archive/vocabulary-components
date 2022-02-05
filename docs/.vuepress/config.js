@@ -5,7 +5,7 @@ const sidebar = [
     title: 'Elements',
     collapsable: false,
     children: [
-      'elements/',
+      ['elements/', 'Index'],
       ['elements/donate-button', 'DonateButton'],
       ['elements/vbutton', 'VButton'],
       ['elements/vcheckbox', 'VCheckbox'],
@@ -16,10 +16,11 @@ const sidebar = [
     title: 'Patterns',
     collapsable: false,
     children: [
-      'patterns/',
+      ['patterns/', 'Index'],
       ['patterns/app-modal', 'App Modal'],
       ['patterns/footer', 'Footer'],
-      ['patterns/locale', 'Locale'],
+      // ['patterns/locale', 'Locale'],
+      // incomplete
       ['patterns/vheader', 'VHeader']
     ]
   }
