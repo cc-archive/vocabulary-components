@@ -31,8 +31,9 @@ module.exports = {
     // config is an instance of ChainableConfig
     config.resolve.alias.set('@', path.resolve(__dirname + '../../../src/'))
   },
+  title: 'Vocabulary Components',
   themeConfig: {
-    title: 'Vocabulary Components',
+    smoothScroll: true,
     displayAllHeaders: true,
     nav: [
       {

@@ -3,12 +3,10 @@ title: Introduction
 # sidebar: auto
 ---
 
-# H1
+# Vocabulary
 
-## H2
+> Vocabulary is a cohesive design system to unify the web-facing Creative Commons
 
-```js
-const x = 5;
-```
+This is the documentation site of Vocabulary Components, built using Vue and Vuepress.
 
-### H3
+## [Contributing Guidelines](/contributing)
