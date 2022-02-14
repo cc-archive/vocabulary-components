@@ -67,5 +67,6 @@
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.5;
+  color: #343434;
 }
 </style>

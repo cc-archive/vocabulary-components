@@ -49,6 +49,7 @@
 <style scoped>
 .navbar-item {
   cursor: pointer;
+  color: #343434 !important;
   background: white;
 }
 </style>

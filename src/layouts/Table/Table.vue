@@ -64,11 +64,11 @@
 <script>
   import TableCell from '@/layouts/Table/TableCell'
 
-  import Branded from '@/mixins/branded'
-  import Colored from '@/mixins/colored'
-  import Simplified from '@/mixins/simplified'
+  import Branded from '@/mixins/branded.js'
+  import Colored from '@/mixins/colored.js'
+  import Simplified from '@/mixins/simplified.js'
 
-  import Invertible from '@/mixins/invertible'
+  import Invertible from '@/mixins/invertible.js'
 
   /**
    * ### Tables show related data meaningfully.

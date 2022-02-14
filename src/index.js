@@ -20,7 +20,6 @@ import NavDropdown from './patterns/VHeader/NavDropdown'
 import NavItem from './patterns/VHeader/NavItem'
 import VHeader from './patterns/VHeader/VHeader'
 import SlotRenderer from './utils/SlotRenderer/SlotRenderer'
-
 // Export individual components
 export {
   DonateButton,
@@ -58,5 +57,6 @@ export default {
     Vue.component('NavItem', NavItem)
     Vue.component('VHeader', VHeader)
     Vue.component('SlotRenderer', SlotRenderer)
+    // Vue.use(i18n)
   }
 }
