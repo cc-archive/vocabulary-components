@@ -18,6 +18,10 @@ The `README` in the root of the repository should contain or link to project
 documentation. If you cannot find the documentation you're looking for, please
 file a GitHub issue with details of what you'd like to see documented.
 
+More documentation can be found in the [Storybook][landing].
+
+[landing]: https://cc-vocabulary.netlify.com/
+
 
 ## How to Contribute
 
