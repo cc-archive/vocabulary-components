@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://creativecommons.github.io/vocabulary/" class="readme-vocabulary-logo">
+  <a href="https://cc-vocabulary.netlify.app/" class="readme-vocabulary-logo">
     <img
       alt="Vocabulary logo"
       src="https://raw.githubusercontent.com/creativecommons/vocabulary/master/readme_assets/vocabulary_logo.svg?sanitize=true"
