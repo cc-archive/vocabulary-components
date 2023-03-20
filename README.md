@@ -72,7 +72,7 @@ npm run build:documentation
 
 ## Using
 
-To use Vocabulary in your projects, refer to [this document](https://cc-vocabulary.netlify.com/?path=/docs/vocabulary-usage--page).
+To use Vocabulary in your projects, refer to [this document](https://cc-vocabulary.netlify.app/?path=/docs/hello-introduction--page).
 
 ## Contributing
 
