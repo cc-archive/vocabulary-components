@@ -9,7 +9,7 @@
 
 # Creative Commons Vocabulary
 
-> Vue Vocabulary is a collection of Vue components used in the web facing Creative Commons.
+> Vue Vocabulary is a collection of Vue components used in the web-facing Creative Commons.
 
 <p align="center">
 
@@ -42,15 +42,15 @@
 
 </p>
 
-Vocabulary is the code implementation of Creative Commons' Design Language. Vocabulary makes it easier to develop Creative Commons apps while ensuring a consistently familiar experience.
+Vocabulary is the code implementation of Creative Commons' Design Language. It makes it easier to develop Creative Commons apps while ensuring a consistently familiar experience.
 
 ## Installation
 
-To setup you will need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed.
+To set up, you will need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed.
 
 ### Project dependencies
 
-If you have the system dependencies installed, you can install the project dependencies via `npm`:
+If you have the system dependencies installed, you can install the project dependencies via `npm` by running:
 
 ```bash
 npm install
@@ -64,7 +64,7 @@ To build the files for release, run the following command:
 npm run build
 ```
 
-To build the documentation:
+To build the documentation, run:
 
 ```bash
 npm run build:documentation
@@ -76,15 +76,15 @@ To use Vocabulary in your projects, refer to [this document](https://cc-vocabula
 
 ## Contributing
 
-We're always looking for contributors to help us find and fix bugs, build new features, help us improve the project documentation or translate the project to another language.
+We're always looking for contributors to help us find and fix bugs, build new features, improve the project documentation or translate the project to another language.
 
 Vocabulary is continuously evolving and improving. You can contribute to the project in a number of ways.
 
 | What       | How                                                                                                                                                   |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**   | If you are a developer, feel free to resolve open issues, raise PRs, add new features to existing components or add new components altogether.        |
-| **Design** | If you are a designer, your inputs on making every component more intuitive, aesthetic and joyful will reverberate through the entire ecosystem.      |
-| **Test**   | If you are a user of these components, your feedback, bug reports and feature requests will drive the project forward so that we can meet your needs. |
+| **Code**   | If you are a developer, feel free to resolve open issues, raise PRs, add new features to existing components, or add new components altogether.        |
+| **Design** | If you are a designer, your inputs on making every component more intuitive, aesthetic, and joyful will reverberate throughout the entire ecosystem.      |
+| **Test**   | If you are a user of these components, your feedback, bug reports, and feature requests will drive the project forward so that we can meet your needs. |
 | **Write**  | If you have a knack for writing technical articles, you could be the voice of the library's documentation, making it easy to use and understand.      |
 | **Share**  | If you can't contribute in these ways, you can refer the project to a friend who might be able to. Spreading the word is the easiest way to help out. |
 
@@ -92,7 +92,7 @@ Interested?
 
 The following instructions are in addition to the processes in our general [Contribution](https://opensource.creativecommons.org/contributing-code/) and [Pull Request](https://opensource.creativecommons.org/contributing-code/pr-guidelines/) guidelines on the Creative Common Open Source website. If you haven't read them already, read them first.
 
-These instructions are a port of the general guidelines, tailored specifically for Vocabulary.
+These instructions are a port of the general guidelines tailored specifically for Vocabulary.
 
 ### Discussing Changes
 
@@ -126,7 +126,7 @@ Examples:
 
 Update your fork from time to time. See GitHub Help pages for instructions on how to do that.
 
-Write new tests, and update existing ones, for the changes you make.
+Write new tests for the changes you make and update existing ones.
 
 ## Testing
 
